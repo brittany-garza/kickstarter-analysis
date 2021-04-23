@@ -24,30 +24,45 @@ The following code is filtering all the play goal values that are between 5000 t
 
 ### Analysis of Outcomes Based on Launch Date
 
-### Analysis of Outcomes Based on Goals
-
-### Challenges and Difficulties Encountered
-
-## Results
-
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
-
 May and June were the most successful months for theaters. Decemeber has almost the same amount of successful and failed theaters.
 No theaters were canceled in October, but the success rate is only half compared to May and June. 
 Only lived theaters were open during the first 3 months of launch.
 
-- What can you conclude about the Outcomes based on Goals?
+
+### Analysis of Outcomes Based on Goals
 
 Plays with the most success had a goal of between 1000 to 4999. All plays either successed or failed. 
 Even though 1000 to 4999 has the most susscessful, goals with less than 1000 has a higher percentage. 
 No plays were canceled at any time, all either successed or failed. 
 
+### Challenges and Difficulties Encountered
+
+When creating the outcome based on goals chart, I accidently didn't filter by plays instead it counted all categories. If this information was giving to Louise, this would have 
+affected her decision on deciding on a goal. I added play to the COUNTIF function and this corrected the data. 
+
+When calculating the average donation, the following code was used from the module content. Without the IFERROR function added to the formula, any average donaton would have an error and excel would not know how to display a value. 
+
+> =IFERROR(ROUND(E2/L2,2),0)
+
+
+## Results
+
+- What are two conclusions you can draw about the Outcomes based on Launch Date?
+
+The best months for Louise to premiere her play "Fever" is May and June. If she primeres her play during Decemeber, she will have about 50% chance of failing or successing. 
+
+
+- What can you conclude about the Outcomes based on Goals?
+
+  She could set her goal amount between 1000 to 4999 since that amount had the highest number of successful plays. If she wants to set a smaller amount, less than 1000 has the   
+  highest percentage of success. I think either amount she will have a good chance of having a successful play. 
+  
 
 - What are some limitations of this dataset?
 
 The chart for outcomes for goals is only looking at plays, instead of either musicals or spaces. 
-
 The chart and graph of theater outcomes only shows for all teathers, instead of breaking it down to show the outcome for the number of plays, musicals or spaces in each year. 
+
 
 - What are some other possible tables and/or graphs that we could create?
 
