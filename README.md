@@ -49,7 +49,7 @@ When calculating the average donation, the following code was used from the modu
 
 - What are two conclusions you can draw about the Outcomes based on Launch Date?
 
-The best months for Louise to premiere her play "Fever" is May and June. If she primeres her play during Decemeber, she will have about 50% chance of failing or successing. 
+  The best months for Louise to premiere her play "Fever" is May and June. If she primeres her play during Decemeber, she will have about 50% chance of failing or successing. 
 
 
 - What can you conclude about the Outcomes based on Goals?
@@ -60,11 +60,11 @@ The best months for Louise to premiere her play "Fever" is May and June. If she 
 
 - What are some limitations of this dataset?
 
-The chart for outcomes for goals is only looking at plays, instead of either musicals or spaces. 
-The chart and graph of theater outcomes only shows for all teathers, instead of breaking it down to show the outcome for the number of plays, musicals or spaces in each year. 
+  The chart for outcomes for goals is only looking at plays, instead of either musicals or spaces. 
+  The chart and graph of theater outcomes only shows for all teathers, instead of breaking it down to show the outcome for the number of plays, musicals or spaces in each year. 
 
 
 - What are some other possible tables and/or graphs that we could create?
 
-A box and whisker plot can be used to show Louise a reasonable goal to set for plays based on what the median is. 
-A additional pivot table can be created to show a break down of each year and type of theater had the most or least success. 
+  A box and whisker plot can be used to show Louise a reasonable goal to set for plays based on what the median is. 
+  A additional pivot table can be created to show a break down of each year and type of theater had the most or least success. 
